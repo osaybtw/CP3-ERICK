@@ -1,5 +1,16 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
+
+void exibirMenu(){
+    printf("\n1 - Ver saldo\n");
+    printf("0 - Sair\n");
+    printf("Escolha uma opcao: ");
+}
+
+void limparBuffer(){
+    while(getchar() != '\n');
+}
 
 int usuario, opcao;
 float saldo = 0;
