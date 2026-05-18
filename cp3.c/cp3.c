@@ -14,7 +14,9 @@ int main(){
 
 }
 int main(){
-  
+    
+  printf("Sistema ATM iniciado!\n");
+
     printf("Saldo inicial: R$ %.2f\n\n", saldo);
     
   
